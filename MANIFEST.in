@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jiqm_test *.css
+recursive-include jiqm_test *.csv
+recursive-include jiqm_test *.html
+recursive-include jiqm_test *.ico
+recursive-include jiqm_test *.js
+recursive-include jiqm_test *.json
+recursive-include jiqm_test *.md
+recursive-include jiqm_test *.png
+recursive-include jiqm_test *.py
+recursive-include jiqm_test *.svg
+recursive-include jiqm_test *.txt
+recursive-exclude jiqm_test *.pyc
